@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DIEMS College Admission Enquiry Chatbot">
+    <title>DIEMS | Admission Assistant</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="app">
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-logo">D</div>
+                <div>
+                    <h2>DIEMS</h2>
+                    <p>Admission Assistant</p>
+                </div>
+            </div>
+
+            <button id="new-chat" class="new-chat">
+                + New conversation
+            </button>
+
+            <div class="sidebar-section">
+                <p class="section-label">QUICK QUESTIONS</p>
+                <button class="side-question" data-question="Which B.Tech branches are offered?">
+                    Courses and branches
+                </button>
+                <button class="side-question" data-question="What is the B.Tech eligibility?">
+                    Eligibility criteria
+                </button>
+                <button class="side-question" data-question="What is the B.Tech OPEN-category total fee for 2026-27?">
+                    Fee structure
+                </button>
+                <button class="side-question" data-question="Which documents are needed for B.Tech admission?">
+                    Required documents
+                </button>
+                <button class="side-question" data-question="Does DIEMS have hostels?">
+                    Hostel facilities
+                </button>
+            </div>
+
+            <div class="sidebar-footer">
+                <span class="status-dot"></span>
+                Admission information assistant
+            </div>
+        </aside>
+
+        <main class="main">
+            <header class="topbar">
+                <div>
+                    <h1>College Admission Enquiry</h1>
+                    <p>Deogiri Institute of Engineering and Management Studies</p>
+                </div>
+                <span class="online-badge">● Online</span>
+            </header>
+
+            <section id="chat-messages" class="chat-messages"
+                     aria-live="polite">
+                <div class="welcome">
+                    <div class="welcome-icon">D</div>
+                    <h2>Welcome to DIEMS!</h2>
+                    <p>
+                        I'm your admission assistant. Ask me about courses,
+                        fees, eligibility, required documents and campus facilities.
+                    </p>
+
+                    <div class="suggestion-grid">
+                        <button class="suggestion"
+                                data-question="Which B.Tech branches are offered?">
+                            <span>🎓</span>
+                            <strong>Explore courses</strong>
+                            <small>Available engineering branches</small>
+                        </button>
+
+                        <button class="suggestion"
+                                data-question="What is the B.Tech eligibility?">
+                            <span>📋</span>
+                            <strong>Admission eligibility</strong>
+                            <small>Requirements for applicants</small>
+                        </button>
+
+                        <button class="suggestion"
+                                data-question="What is the B.Tech OPEN-category total fee for 2026-27?">
+                            <span>₹</span>
+                            <strong>Fees and charges</strong>
+                            <small>Check the listed fee structure</small>
+                        </button>
+
+                        <button class="suggestion"
+                                data-question="Does DIEMS have hostels?">
+                            <span>🏫</span>
+                            <strong>Campus facilities</strong>
+                            <small>Hostel and other facilities</small>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="composer-area">
+                <form id="chat-form" class="composer">
+                    <input
+                        type="text"
+                        id="message-input"
+                        placeholder="Ask anything about DIEMS admissions..."
+                        autocomplete="off"
+                        maxlength="1000"
+                        aria-label="Your question"
+                        required
+                    >
+                    <button type="submit" id="send-button" aria-label="Send message">
+                        Send ↑
+                    </button>
+                </form>
+                <p class="disclaimer">
+                    Verify fees and admission rules with official DIEMS notices.
+                </p>
+            </footer>
+        </main>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>

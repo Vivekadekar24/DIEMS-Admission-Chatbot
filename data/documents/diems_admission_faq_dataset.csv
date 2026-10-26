@@ -1,0 +1,45 @@
+﻿question,answer,category,source
+Where is DIEMS located?,"DIEMS is at Deogiri Campus, near Hotel VITS, Railway Station Road, Chhatrapati Sambhajinagar, Maharashtra, India - 431005.",College information,facility.pdf page 1
+What is the DTE code of DIEMS?,The DTE code shown in the provided UG programs list is 02114.,College information,UG programs screenshot
+What is the phone number of DIEMS?,The phone number shown in the provided brochure is 0240-2367576.,Contact,facility.pdf page 3
+What is the official email address?,The official-purpose email shown in the brochure is registrar@dietms.org.,Contact,facility.pdf page 3
+What is the student verification email?,The brochure lists students_verification@dietms.org for student verifications.,Contact,facility.pdf page 3
+Which B.Tech branches are offered?,"The provided list includes CSE (AI & ML), CSE, Civil Engineering, Electronics and Telecommunications Engineering, Mechanical Engineering, Electrical Engineering, and AI & Data Science.",Courses,UG programs screenshot
+What is the intake for CSE?,The provided UG programs screenshot lists an intake of 180 for Computer Science and Engineering.,Courses,UG programs screenshot
+What is the intake for CSE AI and ML?,The provided UG programs screenshot lists an intake of 60 for Computer Science and Engineering (Artificial Intelligence and Machine Learning).,Courses,UG programs screenshot
+What is the intake for Civil Engineering?,The provided UG programs screenshot lists an intake of 120 for Civil Engineering.,Courses,UG programs screenshot
+What is the intake for Electronics and Telecommunications Engineering?,The provided UG programs screenshot lists an intake of 120.,Courses,UG programs screenshot
+What is the intake for Mechanical Engineering?,The provided UG programs screenshot lists an intake of 120.,Courses,UG programs screenshot
+What is the intake for Electrical Engineering?,The provided UG programs screenshot lists an intake of 60.,Courses,UG programs screenshot
+What is the intake for AI and Data Science?,The provided UG programs screenshot lists an intake of 60 for Artificial Intelligence (AI) and Data Science.,Courses,UG programs screenshot
+What M.Tech programs are listed?,Mechanical Engineering; Computer Science and Engineering; Electronics & Telecommunications Engineering; Structural Engineering; Civil Engineering (CASE); Automotive Technology; and Computer Science and Engineering (AI&ML).,Courses,M.Tech programs screenshot
+What is the B.Tech OPEN-category total fee for 2026-27?,"The provided fee image lists the B.Tech first-year OPEN total as ₹104,740 for academic year 2026-27. Examination fees are separate.",Fees,B.Tech fees screenshot
+What is the B.Tech EBC/SEBC/OBC/EWS male total fee?,"The provided fee image lists ₹60,325 for this column for B.Tech first year, academic year 2026-27. Examination fees are separate.",Fees,B.Tech fees screenshot
+What is the B.Tech EBC/SEBC/OBC/EWS female total fee?,"The provided fee image lists ₹15,909 for this column for B.Tech first year, academic year 2026-27. Confirm category eligibility with the college.",Fees,B.Tech fees screenshot
+What is the B.Tech SC/ST total fee?,"The provided fee image lists ₹3,740 for the SC/ST column for B.Tech first year, academic year 2026-27. Confirm eligibility and applicable rules with the college.",Fees,B.Tech fees screenshot
+Are exam fees included in B.Tech fees?,No. The provided fee notice says examination fees are payable separately each semester at examination time.,Fees,B.Tech fees screenshot
+What is the M.Tech OPEN/EWS total fee for 2026-27?,"The provided M.Tech first-year fee image lists ₹64,570 for OPEN/EWS. Examination fees are separate.",Fees,M.Tech fees screenshot
+What is the M.Tech OBC male total fee?,"The provided M.Tech fee image lists ₹37,037 for OBC male for academic year 2026-27. Examination fees are separate.",Fees,M.Tech fees screenshot
+What is the M.Tech OBC female total fee?,"The provided M.Tech fee image lists ₹9,504 for OBC female for academic year 2026-27. Confirm eligibility with the college.",Fees,M.Tech fees screenshot
+What is the M.Tech SC/ST total fee?,"The provided M.Tech fee image lists ₹2,070 for SC and ₹2,070 for ST for academic year 2026-27. Confirm eligibility with the college.",Fees,M.Tech fees screenshot
+What is the B.Tech eligibility?,"The provided brochure says candidates must pass HSC or equivalent with Physics and Mathematics compulsory and one listed additional subject, with the stated minimum marks.",Eligibility,1st year admission brochure page 1
+What is the minimum percentage for B.Tech?,"The brochure states at least 45% in the specified subjects together, or at least 40% for the specified Maharashtra State backward class, EWS and PwD candidates.",Eligibility,1st year admission brochure page 1
+Which entrance exam is needed for B.Tech?,"The 2026-27 brochure says candidates should have appeared in all MHT-CET (PCM) 2026 subjects and obtained a non-zero score, or given JEE Main 2026. Verify the current admission notice before applying.",Eligibility,1st year admission brochure page 1
+Which documents are needed for B.Tech admission?,"The brochure lists SSC mark sheet and certificate, HSC/Diploma mark sheet, HSC Leaving Certificate, MHT-CET/JEE Main scorecard, age/nationality/domicile or accepted birth/leaving certificate, and passport-size photograph.",Documents,1st year admission brochure page 1
+What extra documents are needed for OBC/NT/SBC/SEBC/DTVJ?,"The brochure lists caste certificate, caste validity certificate, and non-creamy layer certificate.",Documents,1st year admission brochure page 2
+What extra documents are needed for SC/ST?,The brochure lists caste certificate and caste validity certificate.,Documents,1st year admission brochure page 2
+What is the income condition for EBC/TFWS in the brochure?,The brochure lists an income certificate stating the parent's income is less than ₹8 lakh. Confirm the current scheme requirements with the official admission authority.,Documents,1st year admission brochure page 2
+Does DIEMS have hostels?,The provided hostel information says DIEMS has on-campus and off-campus hostel facilities for girls and boys.,Hostel,Hostel screenshot
+What is the hostel capacity?,The provided hostel information lists capacity as 200 for girls and 152 for boys.,Hostel,Hostel screenshot
+Are hostel rooms AC or non-AC?,"The provided information says both A/C and Non-A/C facilities are available, with attached bathrooms and some common bathrooms.",Hostel,Hostel screenshot
+How are hostel rooms allocated?,"The provided information says hostel places are limited and allocated on a first-come, first-served basis.",Hostel,Hostel screenshot
+How can I enquire about hostel details?,The provided information says to email admin@dietms.org and contact the admin offices.,Hostel,Hostel screenshot
+Does DIEMS have a library?,A library is shown in the institutional facilities brochure.,Facilities,facility.pdf pages 2-3
+Does DIEMS have a digital library?,A digital library with computers is shown in the institutional facilities brochure.,Facilities,facility.pdf page 3
+Does DIEMS have a central workshop?,A central workshop is shown in the institutional facilities brochure.,Facilities,facility.pdf pages 1-2
+Does DIEMS offer M.Tech?,The provided screenshot lists seven M.Tech programs for academic year 2026-27. Verify the current approved intake and admission process with DIEMS.,Courses,M.Tech programs screenshot
+What should the chatbot do if it does not know an answer?,It should say that the information is not available in its verified DIEMS documents and direct the student to the official college contact rather than guessing.,Chatbot behavior,Project recommendation
+Are these fees valid for every academic year?,No. The provided fee images are for academic year 2026-27. The chatbot should state the year and ask users to confirm the latest official fee notice.,Chatbot behavior,Provided fee screenshots
+Can I ask about scholarships?,"The chatbot can answer only when it has verified scheme and eligibility information. For current scholarship rules, it should direct students to the official admission authority.",Scholarships,Data gap / safe response
+Can the chatbot predict my admission?,"It should not guarantee admission. It can explain published eligibility and admission steps, but selection depends on official rules, merit, seats and the counselling process.",Chatbot behavior,Project recommendation
+Where can I find admission information?,"The provided brochure shows admission links for First Year Engineering, Direct Second Year Engineering, Master of Technology, Master of Business Administration, and SE/T.E/BE/ME-II admission/fees portal.",Admissions,facility.pdf pages 3-4
