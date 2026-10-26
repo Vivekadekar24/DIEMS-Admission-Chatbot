@@ -1,8 +1,9 @@
 
+import re
 import streamlit as st
 
-from backend.services.retriever import DiemsRetriever
-from backend.services.llm_service import generate_answer
+from backend.services.retriever import retriever
+from backend.services.llm_service import llm_service
 
 st.set_page_config(
     page_title="DIEMS Admission Assistant",
@@ -15,19 +16,21 @@ st.caption(
     "Deogiri Institute of Engineering and Management Studies"
 )
 
-@st.cache_resource
-def load_retriever():
-    return DiemsRetriever()
-
-try:
-    retriever = load_retriever()
-except Exception as exc:
+if not retriever.ready:
     st.error(
         "The knowledge index could not be loaded. "
-        "Check your dataset paths and indexing setup."
+        "Rebuild it with: venv\\Scripts\\python -m backend.services.ingest"
     )
-    st.code(str(exc))
+    st.code(retriever.error or "Knowledge index unavailable")
     st.stop()
+
+
+def retrieval_answer(question, results):
+    """Use the configured LLM when available, otherwise return verified text."""
+    context = "\n\n".join(result["text"] for result in results)
+    answer = re.split(r"\nanswer:\s*", results[0]["text"], maxsplit=1, flags=re.IGNORECASE)[-1]
+    answer = re.split(r"\n(?:category|source):\s*", answer, maxsplit=1, flags=re.IGNORECASE)[0].strip()
+    return llm_service.answer(question, context) or answer
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
@@ -83,7 +86,7 @@ if question:
                     )
                     sources = []
                 else:
-                    answer = generate_answer(question, results)
+                    answer = retrieval_answer(question, results)
                     sources = list(dict.fromkeys(
                         result.get("metadata", {}).get(
                             "source", "DIEMS knowledge base"
